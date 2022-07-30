@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RrssComponent } from './components/rrss/rrss.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RrssComponent
+    RrssComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
