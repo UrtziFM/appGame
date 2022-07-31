@@ -1,7 +1,12 @@
+header {
+    background-color: #007bff;
+}
+
 .header_menu {
     display: flex;
     flex-direction: column;
     overflow: hidden;
     cursor: pointer;
     position: relative;
+    background-color: #007bff;
 }
