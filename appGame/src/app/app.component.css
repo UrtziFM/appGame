@@ -1,5 +1,5 @@
 header {
-    background-color: #007bff;
+    background-color: rgb(130, 133, 130);
 }
 
 .header_menu {
@@ -9,4 +9,37 @@ header {
     cursor: pointer;
     position: relative;
     background-color: #007bff;
+}
+
+.menu_game {
+    background-color: rgb(130, 133, 130);
+    margin: 0px;
+    padding: 10px;
+}
+
+.menu_menu {
+    background-color: rgb(130, 133, 130);
+    margin: 10px;
+    display: flex;
+    font-size: 1.3rem;
+    padding: .5rem;
+    justify-content: space-evenly;
+    opacity: 0.3;
+    transition: opacity .1s ease;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.menu_menu:hover {
+    opacity: 1;
+}
+.menu_menu a {
+    color:white;
+    margin-bottom: 3px;
+    text-align: center;
+    font-size: 1.3rem;
+    transition: font-size .5 ease;
+}
+.menu_menu a:active{
+    color: yellowgreen;
+    font-size: inherit;
 }
