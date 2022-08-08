@@ -1,0 +1,12 @@
+.games-capsule{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
+img {
+    height: 400px;
+}
+p {
+    color: whitesmoke;
+}
