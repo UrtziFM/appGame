@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { RrssComponent } from './components/rrss/rrss.component';
 import { SkillsComponent } from './skills/skills.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { GamesComponent } from './games/games.component';
+import { GamesComponent } from './games/games.component'
 
 @NgModule({
   declarations: [
