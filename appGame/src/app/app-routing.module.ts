@@ -2,11 +2,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
-import { GamesComponent } from './games/games.component';
+import { SpacesComponent } from './spaces/spaces.component';
+import { PacmanComponent } from './pacman/pacman.component';
 
 
 const routes: Routes = [
-  {path: '', component: GamesComponent}
+  {path: '', component: SpacesComponent},
+  {path: 'Pacman', component: PacmanComponent}
 ];
 
 @NgModule({
