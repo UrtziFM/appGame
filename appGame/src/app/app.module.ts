@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { GamesComponent } from './games/games.component';
 import { SpacesComponent } from './spaces/spaces.component';
 import { PacmanComponent } from './pacman/pacman.component';
+import { BreakoutComponent } from './breakout/breakout.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PacmanComponent } from './pacman/pacman.component';
     SkillsComponent,
     GamesComponent,
     SpacesComponent,
-    PacmanComponent
+    PacmanComponent,
+    BreakoutComponent
   ],
   imports: [
     BrowserModule,
