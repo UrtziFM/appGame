@@ -1,8 +1,12 @@
-.games-capsule{
+.games {
+    background-color: #1068c5;
+}
+.games-capsule {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
     padding: 20px;
+    background-color: rgb(95, 97, 94);
 }
 img {
     height: 400px;

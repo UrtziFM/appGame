@@ -38,11 +38,14 @@ img {
 }
 
 h4 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: whitesmoke;
-    margin: 10px;
+    margin: 5px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+    font-style: italic;
+    font-family: fantasy;
+    background-color: black;
 }
 
 
