@@ -2,10 +2,9 @@
   "name": "app-game",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "netlify": "netlify",
+    "ng": "ng ",
     "start": "ng serve",
-    "build": "npm run ng build",
+    "build": "ng build",
     "build:prod": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
