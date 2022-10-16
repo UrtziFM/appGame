@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "netlify": "netlify",
     "start": "ng serve",
     "build": "npm run ng build",
     "build:prod": "ng build --prod",
