@@ -7,13 +7,15 @@ import { RrssComponent } from './components/rrss/rrss.component';
 import { SkillsComponent } from './skills/skills.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { GamesComponent } from './games/games.component';
+import { PlaygameComponent } from './playgame/playgame.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RrssComponent,
     SkillsComponent,
-    GamesComponent
+    GamesComponent,
+    PlaygameComponent
   ],
   imports: [
     BrowserModule,
